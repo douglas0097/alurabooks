@@ -2,7 +2,7 @@
     background: var(--azul-degrade);
     color: var(--branco);
     text-align: center;
-    padding: 2em 1.4em;
+    padding: 2em 2.948em;
 }
 
 .banner__titulo{
@@ -24,7 +24,7 @@
     color: var(--branco);
     border-radius: 24px;
     padding: 0.625em 1.5px;
-    width: 380px;
+    width: 100%;
     text-align: center;
 }
 
@@ -36,4 +36,5 @@
     background: url(../imagens/Lupa.svg) no-repeat;
     background-position: 1em;
     opacity: 70%;
+    text-align: center;
 }
