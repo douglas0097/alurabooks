@@ -50,3 +50,13 @@ hr{
         font-size: 14px;
     }
 }
+
+@media screen and  (min-width:1728px){
+    .rodape{
+        padding-top: 3em;
+    }
+    .rodape__lista{
+        border-left: 1px solid var(--cinza-claro);
+        padding-left: 1em ;
+    }
+}
