@@ -68,6 +68,10 @@
     display: none;
 }
 
+.container__texto{
+    display: none;
+}
+
 @media screen and  (min-width:1024px){
 
     .cabecalho{
@@ -114,5 +118,29 @@
     .opcoes__botao:checked ~ .lista-menu{
         display: block;
         width: auto;
+    }
+}
+
+@media screen and  (min-width:1728px){
+    .cabecalho{
+        display: flex;
+        align-self: self-start;
+    }
+
+    .container__link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+        font-size: 20px;
+    }
+
+    .container__texto{
+        display: block;
+    }
+
+    .opcoes{
+        margin-right: auto;
+        margin-left: 3em;
     }
 }
