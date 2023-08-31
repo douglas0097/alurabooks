@@ -98,8 +98,7 @@
     }
 
     .opcoes__item{
-        padding: 0 1em;
-
+        padding: 1.7em 1em;
     }
 
     .opcoes__link{
@@ -118,6 +117,19 @@
     .opcoes__botao:checked ~ .lista-menu{
         display: block;
         width: auto;
+    }
+
+    .opcoes__botao:checked ~ .opcoes__rotulo >.opcoes__item{
+        background: var(--azul-degrade);
+        color: var(--branco);
+    }
+
+    .lista-menu__item:hover{
+        background: var(--azul-degrade);
+    }
+
+    .lista-menu__item:hover > .lista-menu__link{
+        -webkit-text-fill-color: var(--branco);
     }
 }
 
@@ -143,4 +155,5 @@
         margin-right: auto;
         margin-left: 3em;
     }
+    
 }
